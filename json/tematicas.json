@@ -1,0 +1,8 @@
+{
+    "animales": ["elefante", "jirafa", "tigre", "perro", "gato", "cobra"],
+    "coches": ["tesla", "ford", "honda", "bmw", "audi", "toyota", "chevrolet"],
+    "marcasropa": ["nike", "adidas", "gucci", "zara", "puma", "hym"],
+    "paises": ["francia", "alemania", "italia", "japon", "china", "brasil"],
+    "marcasdemotos": ["harley", "honda", "yamaha", "kawasaki", "suzuki", "Ducati", "BMW"]
+  }
+  

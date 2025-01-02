@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <title>El juego del ahorcado</title>
+</head>
+
+<body>
+  <!--Selector de tematicas-->
+  <div id="selector">
+    <h4>Bienvenido al juego del ahorcado</h4>
+    <div id="contenedor-selector">
+      <p>Escoge una tematica :</p>
+      <a href="#" onclick="elegirTematica('animales')">Animales</a>
+      <a href="#" onclick="elegirTematica('coches')">Coches</a>
+      <a href="#" onclick="elegirTematica('marcasropa')">Marcas de ropa</a>
+      <a href="#" onclick="elegirTematica('paises')">Paises</a>
+      <a href="#" onclick="elegirTematica('marcasdemotos')">Motos</a>
+    </div>
+  </div>
+
+  <!--Pantalla de derrota-->
+  <div id="perdida">
+    <h1>Has perdido. Reinicia la pagina para poder volver ha jugar</h1>
+  </div>
+
+  <!--Pantalla de victoria-->
+  <div id="victoria">
+    <h1>Muchas felicidades, has ganado.</h1>
+    <p>Si quieres volver a jugar reinicia la pagina :D</p>
+  </div>
+
+  <!--Contenedor principal-->
+  <div id="ahorcado">
+    <h1>El juego del ahorcado</h1>
+    <p>Escoge una letra te quedan <span id="intentos">0</span> intentos</p>
+    <div id="dibujo"><img src="img/1.png" alt="" /></div>
+    <p id="palabra">-</p>
+    <div id="teclado">
+      <div class="letra">A</div>
+      <div class="letra">B</div>
+      <div class="letra">C</div>
+      <div class="letra">D</div>
+      <div class="letra">E</div>
+      <div class="letra">F</div>
+      <div class="letra">G</div>
+      <div class="letra">H</div>
+      <div class="letra">I</div>
+      <div class="letra">J</div>
+      <div class="letra">K</div>
+      <div class="letra">L</div>
+      <div class="letra">M</div>
+      <div class="letra">N</div>
+      <div class="letra">O</div>
+      <div class="letra">P</div>
+      <div class="letra">Q</div>
+      <div class="letra">R</div>
+      <div class="letra">S</div>
+      <div class="letra">T</div>
+      <div class="letra">U</div>
+      <div class="letra">V</div>
+      <div class="letra">W</div>
+      <div class="letra">X</div>
+      <div class="letra">Y</div>
+      <div class="letra">Z</div>
+    </div>
+    <p>Has fallado <span id="errores">0</span> veces</p>
+    <p id="cronometro">00:00:00</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

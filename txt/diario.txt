@@ -1,0 +1,18 @@
+27/11
+Por ahora lo que tengo es que los intentos se resten cada vez que pasan los siete segundos y que cuando lleguen los intentos ha 0 se acabe el juego. Tambien tengo el selector de tematicas usando un pop up y el CSS por ahora no lo tengo que retocar. Mi objetivo de hoy sera intentar integrar las imagenes y para mañana que el teclado del juego funcione correctamente
+
+28/11
+Ya cuando el usuario pone una letra ya detecta que letras son correctas y que no, pero no se sobreescriben donde esta la palabra con guiones 
+
+29/11
+Hoy ya funciona cuando pones una letra correcta se muestre en la palabra, lo que quiero hacer es cuando el jugador acierte la palabra o el se fallen todos los intentos el juego se acabe.
+
+1/12
+He configurado un poco el CSS y por ahora el JS por ahora no me planteo integrar nada en el codigo.
+Ya esta implementado el que cuando el jugador gane o pierda salgan los pop-ups de su consecutiva victoria/derrota.
+
+5/12
+Hoy he implementado ya que las tematicas se guarden en un archivo JSON y funciona correctamente
+
+11/12
+Hoy estoy dando las ultimas pinceladas al proyecto y he implementado lo utlimo que faltaba que es que cuando el usuario inserta una letra correcta el temporizador se reinicia
